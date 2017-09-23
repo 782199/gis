@@ -1,2 +1,18 @@
+<html lang="en">
+  <head>
+     <meta name="google-signin-client_id" content="907283959141-ckgnskglmo33943tuos04bsdfa7po2ka.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+  <body>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+      function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log("Email: " + profile.getEmail());
+        };
+    </script>
+  </body>
 <h1 style="text-align: center;"><span style="color: #000080;"><strong>FMO DC Transition Real time Report </strong></span></h1>
 <hr />
+</html>
